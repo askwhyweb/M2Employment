@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="OrviSoft_Employment::parent" title="Employment" module="OrviSoft_Employment" sortOrder="100" resource="OrviSoft_Employment::parent"/>
+		<add id="OrviSoft_Employment::employment" title="Employment Employment" module="OrviSoft_Employment" sortOrder="20" parent="OrviSoft_Employment::parent" action="employment/employment" resource="OrviSoft_Employment::employment"/>
+
+    </menu>
+</config>
